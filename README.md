@@ -19,10 +19,8 @@ The implementation supports the methodology described in your report section on 
 - Uses a storage abstraction (`ObjectStorage`) with a MySQL implementation (`MYSQLStorage`).
 - Stores image binary data (`BLOB`) and metadata (`filename`, `content_type`) in MySQL.
 - Endpoints:
-  - `GET /health`: health check.
   - `POST /upload`: upload image, returns `image_id`.
   - `GET /images/<image_id>`: returns image inline.
-  - `GET /download/<image_id>`: returns image as attachment.
 
 - `loadTest.py`
 - Request simulation and benchmark collection script.
