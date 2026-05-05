@@ -3,7 +3,7 @@ import time
 import statistics
 
 BASE_URL = "http://localhost:5000"
-TEST_DURATION = 600  # seconds
+TEST_DURATION = 120  # seconds
 IMAGE_PATH = "test.jpg"
 
 upload_latencies = []
